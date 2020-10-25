@@ -10,6 +10,10 @@
     "serve": "webpack serve --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarqueze/Web-Template-Webpack-V5.git"
+  },
   "keywords": [
     "webpack",
     "react",
