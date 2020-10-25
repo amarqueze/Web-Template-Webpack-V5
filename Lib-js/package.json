@@ -1,0 +1,31 @@
+{
+  "name": "lib-js",
+  "version": "1.0.0",
+  "description": "Webpack Library",
+  "main": "lib/main.js",
+  "scripts": {
+    "build:browser": "webpack --config webpack.config.js",
+    "build:server": "babel src -d lib",
+    "test": "jest ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarqueze/Web-Template-Webpack-V5.git"
+  },
+  "keywords": [
+    "lib"
+  ],
+  "author": "Alan M.E <alanmarquez@outlook.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/amarqueze/Web-Template-Webpack-V5/issues"
+  },
+  "homepage": "https://github.com/amarqueze/Web-Template-Webpack-V5#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0"
+  }
+}
